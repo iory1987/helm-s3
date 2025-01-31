@@ -36,7 +36,7 @@ initOS() {
     binary_extension=""
     case "$(os)" in
         Darwin) os="darwin" ;;
-        Linux) os="linux" ;;
+        Linux) os="Linux" ;;
         CYGWIN*|MINGW*|MSYS_NT*) os="windows"; binary_extension=".exe" ;;
         *)
         echo "OS '$(os)' not supported!" >&2
