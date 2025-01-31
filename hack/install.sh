@@ -32,7 +32,7 @@ initArch() {
 }
 
 initOS() {
-    os=$(uname -s)
+    os=`uname -s`
     binary_extension=""
     case "$(os)" in
         Darwin) os="darwin" ;;
